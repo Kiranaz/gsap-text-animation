@@ -49,9 +49,9 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text }) => {
 
     // Line animation
     timeline.to(lineElement, {
-      width: '20%',
+      width: '225px',
       duration: 0.6,
-      ease: 'power2.out',
+      ease: 'bounce.out',
       delay: 0.5,
     })
 
