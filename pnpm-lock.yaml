@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      gsap:
+        specifier: npm:gsap-trial@^3.12.5
+        version: gsap-trial@3.12.5
       next:
         specifier: 14.2.15
         version: 14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -762,6 +765,9 @@ packages:
 
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
+
+  gsap-trial@3.12.5:
+    resolution: {integrity: sha512-Mdq2sLBq6rt9qje/MoF/hRa/xKfvKOUdllPouU2Fhz1K6mpCk0SOGBDhxCrOrJXZ4O7YFFRFVADKIJVeHdKA8A==}
 
   has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
@@ -2472,6 +2478,8 @@ snapshots:
   graceful-fs@4.2.11: {}
 
   graphemer@1.4.0: {}
+
+  gsap-trial@3.12.5: {}
 
   has-bigints@1.0.2: {}
 
